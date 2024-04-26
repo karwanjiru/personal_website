@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radial-purple {
+    background: radial-gradient(lightyellow, rgb(210, 149, 210));
+}
+
