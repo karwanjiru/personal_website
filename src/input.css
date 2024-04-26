@@ -6,3 +6,12 @@
     background: radial-gradient(lightyellow, rgb(210, 149, 210));
 }
 
+@layer utilities {
+    .section-min-height {
+        min-height: calc(100vh - 68px);
+    }
+
+button:hover {
+    transform: scale(1.05);
+}
+}
